@@ -21,7 +21,7 @@ I asked chatgpt to tell me about different types of layers that can be added to 
 
 ## Testing
 
-Before even experimenting with the architechture, I built a onnxruntime script which will run on google collab notebook. The script not only runs a onnx file but also tests it, meaning checks its accuracy and confusion matrix. As specified in the challenge I wanted the model on "edge hardware", I used a raspberry pi 4b 2W as my benchmark. one of the key performance matrix is RAM usage and latency time. 
+Before even experimenting with the architechture, I built a onnxruntime script which will run on google collab notebook. I built this using ChatGPT.The script not only runs a onnx file but also tests it, meaning checks its accuracy and confusion matrix. As specified in the challenge I wanted the model on "edge hardware", I used a raspberry pi 4b 2W as my benchmark. one of the key performance matrix is RAM usage and latency time. 
 
 In the collab NB, although you are free to look through the whole NB, I would recommend just focusing on the last block only as that is what I finally used.
 
@@ -37,7 +37,7 @@ I wanted to create a new network taking an inspiration from what was already pro
 - firstly replacing the MaxPool layer with an AvgPool. My thinking was that taking only the maximum activation among four values does not capture the complete information. It might leave out contrasts which might leave out edges.
 - secondly i thought that using Global Average Pool does NOT help recognize the features that each feature map wants to highlight.
 
-So i created the following architechture
+So I created the following architecture, by prompting ChatGPT. You will find all prompts linked at the end of the file.
 
 <img width="890" height="875" alt="Screenshot 2026-10-21 003111" src="https://github.com/user-attachments/assets/055b642e-eb9b-4ff2-84fe-cc164c3abb62" />
 My original plan on paper
@@ -46,7 +46,10 @@ My original plan on paper
 However, after training and testing this model, I found that it had low accuracy even after 40-50 epochs at which point the older more basic model seemed better.
 <img width="1200" height="900" alt="confusion_matrix" src="https://github.com/user-attachments/assets/da59361f-3694-480e-b60f-0fe9b2c74cce" />
 
+### Third Iteration
 
+I thought that the network had become too "dense", that there were too many layers and thus it was becoming harder to train.
+Also when I asked ChatGPT, how to improve 
 
 
 

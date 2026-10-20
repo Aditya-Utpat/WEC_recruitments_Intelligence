@@ -7,7 +7,7 @@ E-mail: adityautpat07@gmail.Com
 While creating a machine learning model there are always two tasks, designing the architechture and implementing training and testing.
 
 I have used AI and LLMs like chatgpt extensively for writing the code for the second part that is implementing and training.
-However I have learned PyTorch basics and used AI just to improve iteration time.
+As I am a beginner it was not feasible for me to learn to write the code for training and validation and go through so many different iterations of the model.
 
 # Learning
 In this section, i will elaborate how i learned to create this model.

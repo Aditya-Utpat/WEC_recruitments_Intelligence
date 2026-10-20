@@ -37,3 +37,13 @@ I wanted to create a new network taking an inspiration from what was already pro
 - secondly i thought that using Global Average Pool does NOT help recognize the features that each feature map wants to highlight.
 
 So i created the following architechture
+
+<img width="890" height="875" alt="Screenshot 2026-10-21 003111" src="https://github.com/user-attachments/assets/055b642e-eb9b-4ff2-84fe-cc164c3abb62" />
+My original plan on paper
+<img width="1200" height="1600" alt="WhatsApp Image 2026-10-20 at 3 07 32 PM" src="https://github.com/user-attachments/assets/a8223ef5-a54d-4fcc-8eac-074f35a59780" />
+
+However, after training and testing this model, I found that it had low accuracy even after 40-50 epochs at which point the older more basic model seemed better. 
+
+
+
+

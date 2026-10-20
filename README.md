@@ -8,6 +8,7 @@ While creating a machine learning model there are always two tasks, designing th
 
 I have used AI and LLMs like chatgpt extensively for writing the code for the second part that is implementing and training.
 As I am a beginner it was not feasible for me to learn to write the code for training and validation and go through so many different iterations of the model.
+I will explicitly mention where so ever I used AI to write the code
 
 # Learning
 In this section, i will elaborate how i learned to create this model.

@@ -71,3 +71,8 @@ My approach towards designing the network was a little experimental. I did not l
 My overall approach was to identify different patterns in the image like textures, colours, edges etc. and then classify the image based on what combination of these are present in the image. The layers uptil the Branch concatenation layer are used to identify patterns and after that two simple GEMM layers that all connected are used to identify the combination of patterns to predict the image.
 
 In this project I also demonstrated how you can leverage the power of AI to create new CNNs without having in-depth knowledge of coding, python or Pytorch. Just the lack of knowledge of coding shouldn't stop one from building what they want to.
+
+### Links to my chats with ChatGPT and NotebookLM.
+https://notebook.google.com/notebook/f76c13b7-c51c-4e35-b8da-8aa660c6ff55
+https://chatgpt.com/g/g-p-6ad6eeab7f6881918849e7128389ff46-wec-intelligence-recruitment/project
+(These are actual chats. It might be messy.)

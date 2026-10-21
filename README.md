@@ -1,6 +1,8 @@
-## profile
+## Profile
 Name: Aditya Ajay Utpat
+
 Roll no: 261EE103
+
 E-mail: adityautpat07@gmail.Com
 
 ## About the project and the use of AI

@@ -75,4 +75,5 @@ In this project I also demonstrated how you can leverage the power of AI to crea
 ### Links to my chats with ChatGPT and NotebookLM.
 https://notebook.google.com/notebook/f76c13b7-c51c-4e35-b8da-8aa660c6ff55
 https://chatgpt.com/g/g-p-6ad6eeab7f6881918849e7128389ff46-wec-intelligence-recruitment/project
+
 (These are actual chats. It might be messy.)

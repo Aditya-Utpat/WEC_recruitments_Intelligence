@@ -51,9 +51,13 @@ However, after training and testing this model, I found that it had low accuracy
 ### Third Iteration
 
 I thought that the network had become too "dense", that there were too many layers and thus it was becoming harder to train.
-Also when I asked ChatGPT about the differences between AvgPool and MaxPool , It said that Maxpool helps to improve the "confidence" of the network, that is instead of the output being spread across different classes, it narrows down its selection.
+Also when I asked ChatGPT about the differences between AvgPool and MaxPool. It said that Maxpool helps to improve the "confidence" of the network, that is instead of the output being spread across different classes, it narrows down its selection.
+
+However while asking notebook LM to write the training code I forgot to mention the dimensions of the image so by default it took 120 x 120.
 
 ### Fourth and final version
+
+I corrected the dimensions of the model and then made it 96x96.
 
 In this network I implemented the following architecture, <img width="2779" height="3592" alt="network_architecture_map_v4" src="https://github.com/user-attachments/assets/88a4ca86-6b6e-4afb-b846-48ef697fa431" />
 In training I selected the epoch with the lowest "val_loss", this is beacuse i feel "val_loss" is the correct parameter to judge a network as it ensures that the network has not "overfitted" the data.
@@ -64,7 +68,7 @@ The Zip file provides result for the testing of the model using the google colla
 
 My approach towards designing the network was a little experimental. I did not look at any big famous architectures like ResNet or GoogLeNet because I found that these models were way beyond the scale of the project. They had way too higher parameters than the limit provided to us. Thus, I found that implementing "Skipping layer" or filters of multiple sizes was unnecessary for our model. For training I used Adam optimizer which I found to be the easiest to implement as well as fast enough for this use case. Many of my design choices were influenced by AI.
 
-My overall approach was to identify different patterns in the image like textures, colours, edges etc. and then classify the image based on what combination of these are present in the image.  
+My overall approach was to identify different patterns in the image like textures, colours, edges etc. and then classify the image based on what combination of these are present in the image.
 
 
 

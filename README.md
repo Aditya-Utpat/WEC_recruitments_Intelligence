@@ -26,6 +26,9 @@ I asked chatgpt to tell me about different types of layers that can be added to 
 Before even experimenting with the architechture, I built a onnxruntime script which will run on google collab notebook. I built this using ChatGPT.The script not only runs a onnx file but also tests it, meaning checks its accuracy and confusion matrix. As specified in the challenge I wanted the model on "edge hardware", I used a raspberry pi 4b 2W as my benchmark. one of the key performance matrix is RAM usage and latency time. 
 
 In the collab NB, although you are free to look through the whole NB, I would recommend just focusing on the last block only as that is what I finally used.
+I recommend using the link below although I have attached a copy in the repo.
+
+https://colab.research.google.com/drive/1AxcTvZPVTsnUazA-n8Dp8ACEsF-THgWB?usp=sharing
 
 ## Iterations
 My network architechture went over many iterations and variations

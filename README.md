@@ -49,7 +49,11 @@ However, after training and testing this model, I found that it had low accuracy
 ### Third Iteration
 
 I thought that the network had become too "dense", that there were too many layers and thus it was becoming harder to train.
-Also when I asked ChatGPT, how to improve 
+Also when I asked ChatGPT about the differences between AvgPool and MaxPool , It said that Maxpool helps to improve the "confidence" of the network, that is instead of the output being spread across different classes, it narrows down its selection.
+
+### Fourth and final version
+
+In this network I implemented the following architecture, <img width="2779" height="3592" alt="network_architecture_map_v4" src="https://github.com/user-attachments/assets/88a4ca86-6b6e-4afb-b846-48ef697fa431" />
 
 
 

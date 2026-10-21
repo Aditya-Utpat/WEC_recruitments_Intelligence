@@ -68,7 +68,6 @@ The Zip file provides result for the testing of the model using the google colla
 
 My approach towards designing the network was a little experimental. I did not look at any big famous architectures like ResNet or GoogLeNet because I found that these models were way beyond the scale of the project. They had way too higher parameters than the limit provided to us. Thus, I found that implementing "Skipping layer" or filters of multiple sizes was unnecessary for our model. For training I used Adam optimizer which I found to be the easiest to implement as well as fast enough for this use case. Many of my design choices were influenced by AI.
 
-My overall approach was to identify different patterns in the image like textures, colours, edges etc. and then classify the image based on what combination of these are present in the image.
+My overall approach was to identify different patterns in the image like textures, colours, edges etc. and then classify the image based on what combination of these are present in the image. The layers uptil the Branch concatenation layer are used to identify patterns and after that two simple GEMM layers that all connected are used to identify the combination of patterns to predict the image.
 
-
-
+In this project I also demonstrated how you can leverage the power of AI to create new CNNs without having in-depth knowledge of coding, python or Pytorch. Just the lack of knowledge of coding shouldn't stop one from building what they want to.
